@@ -1,6 +1,6 @@
 # webtemplate
 
-A new Flutter project.
+A Flutter project UI  in  aq light blue and white Theme.
 
 ## Getting Started
 

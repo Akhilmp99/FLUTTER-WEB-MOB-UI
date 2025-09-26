@@ -8,7 +8,7 @@ SAMPLE UI IMAGES
 
 <img width="1914" height="928" alt="image" src="https://github.com/user-attachments/assets/c46183fb-d3df-4d18-8b82-5de22c711bb1" />
 <img width="1918" height="927" alt="image" src="https://github.com/user-attachments/assets/cab75571-42c6-491b-a907-f807e1a7f47f" />
-<img width="1916" height="933" alt="image" src="https://github.com/user-attachments/assets/a40190a7-4cdc-408f-8351-579e1f188a3b" />
+
 
 
 

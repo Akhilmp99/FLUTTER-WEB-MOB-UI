@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:webtemplate/Pages/Analytics.dart';
+import 'package:webtemplate/Pages/Customer_management.dart';
+import 'package:webtemplate/Pages/auto_bill_generation_page.dart';
 import 'package:webtemplate/Pages/pages.dart';
+import 'package:webtemplate/Pages/product_management_page.dart';
 import 'package:webtemplate/Pages/profile.dart';
+import 'package:webtemplate/Pages/vehicle_management_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -20,6 +24,10 @@ class _HomePageState extends State<HomePage> {
     const AnalyticsPage(),
     const SettingsPage(),
     const  ProfilePage(),
+    const  CustomerManagementPage(),
+    const  ProductManagementPage(),
+    const  VehicleManagementPage(),
+    const AutoBillGenerationPage(),
   ];
 
   @override
@@ -176,6 +184,10 @@ class _HomePageState extends State<HomePage> {
       {'icon': Icons.analytics, 'title': 'Analytics', 'index': 1},
       {'icon': Icons.settings, 'title': 'Settings', 'index': 2},
       {'icon': Icons.person, 'title': 'Profile', 'index': 3},
+      {'icon': Icons.group, 'title': 'Customer Mgt', 'index': 4},
+      {'icon': Icons.inventory, 'title': 'Product Mgt', 'index': 5},
+      {'icon': Icons.directions_car, 'title': 'Vehicle Mgt', 'index': 6},
+      {'icon': Icons.receipt, 'title': 'Bill ', 'index': 7},
     ];
 
     return ListView(
